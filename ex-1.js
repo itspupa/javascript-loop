@@ -1,4 +1,7 @@
-// Exercise #1: Decrease the Student Scores
-let scores = [89, 70, 60, 50, 100, 71];
-
-// Start coding here
+const studentScores = [89,70,60,50,100,71];
+const updatedScores = []
+for (newScores of studentScores){
+    newScores = newScores - 10;
+    updatedScores.push(newScores);
+};
+console.log(updatedScores);
