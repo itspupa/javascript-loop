@@ -1,7 +1,9 @@
 // Exercise #1: Decrease the Student Scores
-let scores = [89, 70, 60, 50, 100, 71];
-
+let studentScores = [89, 70, 60, 50, 100, 71];
+let scores = [0];
 // Start coding here
-for (let studentScores of scores){
-    console.log(studentScores - 10);
-}
+for (let newscores of studentScores){
+    studentScores[scores] = newscores - 10
+    scores++
+};
+console.log(studentScores);
