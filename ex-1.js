@@ -2,8 +2,7 @@
 let studentScores = [89, 70, 60, 50, 100, 71];
 let scores = [0];
 // Start coding here
-for (let newscores of studentScores){
-    studentScores[scores] = newscores - 10
-    scores++
-};
+for (let i = 0; i < studentScores.length; i++) {
+    studentScores[i] = studentScores[i] - 10;
+  };
 console.log(studentScores);
